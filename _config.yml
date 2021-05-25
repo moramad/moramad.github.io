@@ -1,0 +1,25 @@
+title:              Catatan Moramad
+email:              mo.ramadhan92@gmail.com
+description:        A Disruptive Technology Enthusiast blog
+author:             moramad
+baseurl:            "/"
+url:                "https://moramad.github.io"
+
+# Social Profiles
+twitter_username:   moramad
+github_username:    moramad
+# facebook_username:  StartBootstrap
+instagram_username: moramadh
+linkedin_username:  mochamadramadhan92
+
+# Add your google-analytics ID here to activate google analytics
+# google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
