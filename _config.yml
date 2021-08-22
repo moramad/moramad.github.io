@@ -1,0 +1,240 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://moramad.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+#baseurl: /personal-jekyll-theme
+
+# Google tracking id
+
+#google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Mochamad Ramadhan"
+title: "| Mo Ramad |"
+description: "Blog and website of Mo Ramad. Interest in Emerging Tech, Disruptive Innovation"
+keywords: "disruptive, innovation, technology"
+favicon: "/img/favicon.ico"
+
+################
+# Header layout #
+################
+
+# black-favicon: "/img/black-lab-glass.ico"
+logo: "/img/mochamad.png" # leave blank if you don't want a logo
+
+background-img: "../img/bg.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "I'm a fast learner. I may not run as fast as I used to, but I think I still learn as fast. |Carl Lewis|"
+  - text: "Welcome to my page"
+
+me-img: "/img/pas_photo.jpg"
+
+# To use facebook profile pic comment the previous line and uncomment the following
+# line, and replace 'user_id' with your facebook user id.
+# Facebook user id can be found by clicking on your profile pic and the large number
+# in the end of the url just before '&type' is your user id.
+# Note: fbid is not the same as user id and user id only contains numbers
+
+# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+# me-img: "https://github.com/user_name.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: False
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: False
+google-plus-share: True
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+
+# disqus-shortname: "personal-jekyll-theme"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/spidertocat.png"
+    date: "March 2021 - Today"
+    description: "IT Planning & Architecture"
+    description_detail: "Research on Permissioned Blockchain Framework, architecture review, and implementing IoT"                  
+  - image: "/img/timeline/one_heart.png"
+    date: "Jan 2020 - March 2021"
+    description: "System Analyst"
+    description_detail: "As a lead and managing some projects, developing web application, mobile applications, and IoT apps" 
+  - image: "/img/timeline/one_heart.png"
+    date: "Jan 2018 - Dec 2019"
+    description: "Software Engineer"
+    description_detail: "As a lead and researching on Internet of Things Framework, developing IoT Apps"
+  - image: "/img/timeline/one_heart.png"
+    date: "Jan 2015 - Dec 2017"
+    description: "Server Engineer"
+    description_detail: "Provide and maintain Virtual/Physical Linux & Windows servers for user needs"
+  - image: "/img/timeline/one_heart.png"
+    date: "June 2014 - Dec 2014"
+    description: "IT Training for Analyst Program"
+    description_detail: "One semester program to regenerate well-prepared IT Analyst/Engineer"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
+
+email: "mo.ramadhan92@gmail.com"
+
+
+# Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
+pgp: False
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb_image: "/img/author.png"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  # - title: "facebook"
+  #   url: "https://facebook.com/"
+  - title: "twitter"
+    url: "https://twitter.com/moramadh"
+  - title: "instagram"
+    url: "https://instagram.com/moramadh"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/mochamadramadhan92/"
+  - title: "github"
+    url: "https://github.com/moramad"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+err-404-img: "/img/labtocat.png"
+
+##################
+# GPG on Keybase #
+##################
+
+# keybase-username: johnsmith
+# keybase-in-social: False
+# keybase-in-footer: False
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Timeline: 'timeline'
+  Abilities: 'abilities'
+  Project: 'project'
+  # Blog: 'latest-post'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+plugins: [jekyll-paginate, jemoji]
