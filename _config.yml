@@ -56,7 +56,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "I'm a fast learner. I may not run as fast as I used to, but I think I still learn as fast. |Carl Lewis|"
+  - text: "I'm a fast learner. I may not run as fast as I used to, but I think I still learn as fast. | Carl Lewis |"
   - text: "Welcome to my page"
 
 me-img: "/img/pas_photo.jpg"
